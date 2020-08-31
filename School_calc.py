@@ -74,11 +74,10 @@ while True:
                         print("=" * len(final))
                         print()
                         print("Thank you for using our Calculator:)")
-                        break
+                        exit(0)
             elif confirm in "rR":
                 break
             break
-        break
     elif choice == "2":
         while True:
             print("\nYou selected SUBTRACTION(-) OPERATION..")
@@ -111,11 +110,10 @@ while True:
                         print("=" * len(final))
                         print()
                         print("Thank you for using our Calculator:)")
-                        break
+                        exit(0)
             elif confirm in "rR":
                 break
             break
-        break
     elif choice == "3":
         while True:
             print("\nYou selected MULTIPLICATION(*) OPERATION..")
@@ -148,11 +146,10 @@ while True:
                         print("=" * len(final))
                         print()
                         print("Thank you for using our Calculator:)")
-                        break
+                        exit(0)
             elif confirm in "rR":
                 break
             break
-        break
     elif choice == "4":
         while True:
             print("\nYou selected DIVISION(/) OPERATION..")
@@ -184,11 +181,10 @@ while True:
                         print("=" * len(final))
                         print()
                         print("Thank you for using our Calculator:)")
-                        break
+                        exit(0)
             elif confirm in "rR":
                 break
             break
-        break
     elif choice == "5":
         while True:
             print("\nYou selected FLOOR DIVISION(//) OPERATION..")
@@ -220,11 +216,10 @@ while True:
                         print("=" * len(final))
                         print()
                         print("Thank you for using our Calculator:)")
-                        break
+                        exit(0)
             elif confirm in "rR":
                 break
             break
-        break
     elif choice == "6":
         while True:
             print("\nYou selected REMAINDER(%) OPERATION..")
@@ -256,11 +251,10 @@ while True:
                         print("=" * len(final))
                         print()
                         print("Thank you for using our Calculator:)")
-                        break
+                        exit(0)
             elif confirm in "rR":
                 break
             break
-        break
     elif choice == "7":
         while True:
             print("\nYou selected POWER(**) OPERATION..")
@@ -292,11 +286,10 @@ while True:
                         print("=" * len(final))
                         print()
                         print("Thank you for using our Calculator:)")
-                        break
+                        exit(0)
             elif confirm in "rR":
                 break
             break
-        break
     elif choice == "8":
         while True:
             print("\nYou selected SQUARE(x²) OPERATION..")
@@ -328,11 +321,10 @@ while True:
                         print("=" * len(final))
                         print()
                         print("Thank you for using our Calculator:)")
-                        break
+                        exit(0)
             elif confirm in "rR":
                 break
             break
-        break
     elif choice == "9":
         while True:
             print("\nYou selected CUBE(x³) OPERATION..")
@@ -365,11 +357,10 @@ while True:
                         print("=" * len(final))
                         print()
                         print("Thank you for using our Calculator:)")
-                        break
+                        exit(0)
             elif confirm in "rR":
                 break
             break
-        break
     elif choice == "10":
         while True:
             print("\nYou selected SQUARE ROOT(√x) OPERATION..")
@@ -402,11 +393,10 @@ while True:
                         print("=" * len(final))
                         print()
                         print("Thank you for using our Calculator:)")
-                        break
+                        exit(0)
             elif confirm in "rR":
                 break
             break
-        break
     elif choice == "11":
         while True:
             print("\nYou selected CUBE ROOT(∛x) OPERATION..")
@@ -439,11 +429,10 @@ while True:
                         print("=" * len(final))
                         print()
                         print("Thank you for using our Calculator:)")
-                        break
+                        exit(0)
             elif confirm in "rR":
                 break
             break
-        break
     elif choice == "12":
         while True:
             print("\nYou selected Nth ROOT(ⁿ√x) OPERATION..")
@@ -477,11 +466,10 @@ while True:
                         print("=" * len(final))
                         print()
                         print("Thank you for using our Calculator:)")
-                        break
+                        exit(0)
             elif confirm in "rR":
                 break
             break
-        break
     elif choice == "13":
         while True:
             Result = float(input("Enter A New Number : "))
