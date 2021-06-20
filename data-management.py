@@ -121,5 +121,5 @@ if __name__ == "__main__":
             print("\nThank you for using our Data Management System.")
             break
         else:
-            print("Please input valid values!")
+            print("Please enter valid values!")
             continue
