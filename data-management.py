@@ -71,7 +71,8 @@ def checkName(name):
 
 # 🎰 Automatic name Generator - Function
 def nameGen(name):
-    pass
+    rand = round(rd.random()*(10**4))
+    return f"{name}#{rand}"
 
 #* Main Code Starts here 👇
 
@@ -83,17 +84,25 @@ if __name__ == "__main__":
         run = int(input("Enter 1 to run and 0 to exit : "))
         if run == 1:
             # 🧑‍🤝‍🧑 Client name input 
-            NAME = input("\nEnter your name to log : ").lower()
+            NAME = input("\nEnter your name to log : ")
             new_client = input("Are you a new client (y/n) : ")
             # ✅ Checking if client is new and isn't using the same username as other.
             if new_client in "Yy":
                 while checkName(NAME):
-                    NAME = input("The name is already taken please re-enter name : ").lower()
+                    genName = nameGen(NAME)
+                    print(f"\nThis name is already taken, you can use {genName}.")
+                    NAME = input("Please try a different name, You can enter 1 to use suggested name : ")
+                    if NAME == "1":
+                        NAME = genName
+                    else:
+                        print("Invalid input please enter again.")
+                        continue
+
                 addClient(NAME)
             # ✅ Checking if client is old and enters with correct username.
             elif new_client in "Nn":
                  while not checkName(NAME):
-                    NAME = input("No existing Client with this name. Please enter correctly : ").lower()
+                    NAME = input("No existing Client with this name. Please enter correctly : ")
             else:
                 print("Not a valid option! Please try again.")
                 continue
@@ -109,7 +118,7 @@ if __name__ == "__main__":
             continue
         elif run == 0:
             # ⚔️ Code exit
-            print("Thank you for logging details.")
+            print("\nThank you for using our Data Management System.")
             break
         else:
             print("Please input valid values!")
