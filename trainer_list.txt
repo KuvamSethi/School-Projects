@@ -1,6 +1,0 @@
-trainer1|pass
-trainer2|pass
-trainer3|pass
-trainer4|pass
-trainer5|pass
-trainer6|pass
